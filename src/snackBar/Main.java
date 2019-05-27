@@ -18,8 +18,44 @@ public class Main
 		Snack water = new Snack (5, "Water", 20, 2.75, 2);
 
 
+		// 1:
+		System.out.println("1: \n");
+		jane.purchase(soda.getCost() * 3);
+		soda.purchaseStuff(3);
 		System.out.println("jane: " + jane.getOnHand());
+		System.out.println(soda.getQuantity());
+		// 2:
+		System.out.println("2: \n");
+		jane.purchase(pretzel.getCost());
+		pretzel.purchaseStuff(1);
+		System.out.println("Jane: " + jane.getOnHand());
+		System.out.println(pretzel.getQuantity());
+		// 3:
+		System.out.println("3: \n");
+		bob.purchase(soda.getCost() * 2);
+		soda.purchaseStuff(2);
 		System.out.println("bob: " + bob.getOnHand());
+		System.out.println(soda.getQuantity());
+		// 4:
+		System.out.println("4: \n");
+		jane.addCash(10);
+		System.out.println(jane.getOnHand());
+		// 5:
+		System.out.println("5:\n");
+		jane.purchase(chips.getCost());
+		chips.purchaseStuff(1);
+		System.out.println("jane: " + jane.getOnHand());
+		System.out.println(chips.getQuantity());
+		// 6:
+		System.out.println("6: \n");
+		pretzel.addQuantity(12);
+		System.out.println(pretzel.getQuantity());
+		// 7:
+		System.out.println("7: \n");
+		bob.purchase(pretzel.getCost() * 3);
+		pretzel.purchaseStuff(3);
+		System.out.println("Bob: " + bob.getOnHand());
+		System.out.println(pretzel.getQuantity());
 
 	}
 

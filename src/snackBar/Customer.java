@@ -35,6 +35,9 @@ public class Customer
 		return onHand = onHand + pay;
 	}
 
-
+	public double purchase(double cash)
+	{
+		return onHand = onHand - cash;
+	}
 
 }
