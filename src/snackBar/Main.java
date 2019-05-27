@@ -19,43 +19,43 @@ public class Main
 
 
 		// 1:
-		System.out.println("1: \n");
+		System.out.println("1:");
 		jane.purchase(soda.getCost() * 3);
 		soda.purchaseStuff(3);
-		System.out.println("jane: " + jane.getOnHand());
-		System.out.println(soda.getQuantity());
+		System.out.println("Jane: $" + jane.getOnHand());
+		System.out.println(soda.getQuantity() + " Sodas \n");
 		// 2:
-		System.out.println("2: \n");
+		System.out.println("2:");
 		jane.purchase(pretzel.getCost());
 		pretzel.purchaseStuff(1);
-		System.out.println("Jane: " + jane.getOnHand());
-		System.out.println(pretzel.getQuantity());
+		System.out.println("Jane: $" + jane.getOnHand());
+		System.out.println(pretzel.getQuantity() + " Pretzels \n");
 		// 3:
-		System.out.println("3: \n");
+		System.out.println("3:");
 		bob.purchase(soda.getCost() * 2);
 		soda.purchaseStuff(2);
-		System.out.println("bob: " + bob.getOnHand());
-		System.out.println(soda.getQuantity());
+		System.out.println("Bob: $" + bob.getOnHand());
+		System.out.println(soda.getQuantity() + " Sodas \n");
 		// 4:
-		System.out.println("4: \n");
+		System.out.println("4:");
 		jane.addCash(10);
-		System.out.println(jane.getOnHand());
+		System.out.println("Jane: $" + jane.getOnHand() + "\n");
 		// 5:
-		System.out.println("5:\n");
+		System.out.println("5:");
 		jane.purchase(chips.getCost());
 		chips.purchaseStuff(1);
-		System.out.println("jane: " + jane.getOnHand());
-		System.out.println(chips.getQuantity());
+		System.out.println("Jane: $" + jane.getOnHand());
+		System.out.println(chips.getQuantity() + " Chips \n");
 		// 6:
-		System.out.println("6: \n");
+		System.out.println("6:");
 		pretzel.addQuantity(12);
-		System.out.println(pretzel.getQuantity());
+		System.out.println(pretzel.getQuantity() + " Pretzels \n");
 		// 7:
-		System.out.println("7: \n");
+		System.out.println("7:");
 		bob.purchase(pretzel.getCost() * 3);
 		pretzel.purchaseStuff(3);
-		System.out.println("Bob: " + bob.getOnHand());
-		System.out.println(pretzel.getQuantity());
+		System.out.println("Bob: $" + bob.getOnHand());
+		System.out.println(pretzel.getQuantity() + " Pretzels \n");
 
 	}
 
