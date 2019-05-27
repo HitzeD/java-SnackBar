@@ -1,11 +1,11 @@
-package snackbar;
+package snackBar;;
 
 public class VendingMachine
 {
 	private int id;
 	private String name;
 
-	public VendingMachine (int id, String name)
+	public VendingMachine(int id, String name)
 	{
 		this.id = id;
 		this.name = name;
@@ -22,7 +22,7 @@ public class VendingMachine
 
 	public int setId(int id)
 	{
-		this.id = id;
+		return this.id = id;
 	}
 
 	// get and set name's
@@ -34,7 +34,7 @@ public class VendingMachine
 
 	public String setName(String name)
 	{
-		this.name = name
+		return this.name = name;
 	}
 
 }

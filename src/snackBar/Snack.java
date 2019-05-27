@@ -1,4 +1,4 @@
-package snackBar;
+package snackBar;;
 
 public class Snack
 {
@@ -28,7 +28,7 @@ public class Snack
 
 	public int setId(int id)
 	{
-		this.id = id;
+		return this.id = id;
 	}
 
 	// get and set name ----------------
@@ -40,7 +40,7 @@ public class Snack
 
 	public String setName(String name)
 	{
-		this.name = name;
+		return this.name = name;
 	}
 
 	// get quantity ---------------
@@ -59,7 +59,7 @@ public class Snack
 
 	public double setCost(double cost)
 	{
-		this.cost = cost;
+		return this.cost = cost;
 	}
 
 	// get and set machine id
@@ -71,12 +71,22 @@ public class Snack
 
 	public int setMachine(int machineId)
 	{
-		this.machineId = machineId;
+		return this.machineId = machineId;
 	}
 
-	public double addQuantity()
+	public double addQuantity(int add)
 	{
-		
+		return quantity = quantity + add;
+	}
+
+	public double purchaseStuff(int gone)
+	{
+		return quantity = quantity - gone;
+	}
+
+	public double totalCost ()
+	{
+		return quantity * cost;
 	}
 
 }
