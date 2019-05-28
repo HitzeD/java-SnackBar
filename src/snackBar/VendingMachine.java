@@ -1,13 +1,16 @@
-package snackBar;;
+package snackBar;
 
 public class VendingMachine
 {
+	private static int maxId = 0;
 	private int id;
 	private String name;
 
-	public VendingMachine(int id, String name)
+	public VendingMachine(String name)
 	{
-		this.id = id;
+		maxId++;
+		id = maxId;
+
 		this.name = name;
 	}
 
@@ -20,9 +23,9 @@ public class VendingMachine
 		return id;
 	}
 
-	public int setId(int id)
+	public void setId(int id)
 	{
-		return this.id = id;
+		this.id = id;
 	}
 
 	// get and set name's
@@ -32,9 +35,9 @@ public class VendingMachine
 		return name;
 	}
 
-	public String setName(String name)
+	public void setName(String name)
 	{
-		return this.name = name;
+		this.name = name;
 	}
 
 }

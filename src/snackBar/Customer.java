@@ -1,16 +1,19 @@
-package snackBar;;
+package snackBar;
 
 public class Customer
 {
+	private static int maxId = 0;
 	private int id;
 	private String name;
 	private double onHand;
 
-	public Customer (String name, double onHand, int id)
+	public Customer (String name, double onHand)
 	{
+		maxId++;
+		id = maxId;
+
 		this.name = name;
 		this.onHand = onHand;
-		this.id = id;
 	}
 
 // Methods
@@ -20,9 +23,9 @@ public class Customer
 		return name;
 	}
 
-	public String setName(String name)
+	public void setName(String name)
 	{
-		return this.name = name;
+		this.name = name;
 	}
 
 	public double getOnHand()
