@@ -1,3 +1,56 @@
+# Terminal Print Out
+
+1:
+Jane: $37.75
+21.0 Sodas 
+
+2:
+Jane: $35.75
+29.0 Pretzels 
+
+3:
+Bob: $28.14
+19.0 Sodas 
+
+4:
+Jane: $45.75
+
+5:
+Jane: $44.0
+35.0 Chips 
+
+6:
+41.0 Pretzels 
+
+7:
+Bob: $22.14
+38.0 Pretzels 
+
+Snack: Chips
+Machine: Food
+Amount Left: 35.0
+Total Cost: $61.25
+
+Snack: Chocolate Bar
+Machine: Food
+Amount Left: 36.0
+Total Cost: $36.0
+
+Snack: Pretzels
+Machine: Food
+Amount Left: 38.0
+Total Cost: $76.0
+
+Snack: Soda
+Machine: Drink
+Amount Left: 19.0
+Total Cost: $47.5
+
+Snack: Water
+Machine: Drink
+Amount Left: 20.0
+Total Cost: $55.0
+
 # Project Snack Bar:
 
 A student that completes this project shows that they can:
