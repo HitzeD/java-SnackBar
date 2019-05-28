@@ -29,14 +29,14 @@ public class Snack
 		return id;
 	}
 
-	public int setId(int id)
+	public void setId(int id)
 	{
-		return this.id = id;
+		this.id = id;
 	}
 
 	// get and set name ----------------
 
-	public String getname()
+	public String getName()
 	{
 		return name;
 	}
@@ -87,9 +87,38 @@ public class Snack
 		return quantity = quantity - gone;
 	}
 
-	public double totalCost ()
+	public double totalCost()
 	{
 		return quantity * cost;
 	}
 
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

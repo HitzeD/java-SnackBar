@@ -57,6 +57,14 @@ public class Main
 		System.out.println("Bob: $" + bob.getOnHand());
 		System.out.println(pretzel.getQuantity() + " Pretzels \n");
 
+		// Stretch
+
+		System.out.println("Snack: " + chips.getName() + "\n" + "Machine: " + food.getName() + "\n" + "Amount Left: " + chips.getQuantity() + "\n" + "Total Cost: $" + chips.totalCost() + "\n");
+		System.out.println("Snack: " + chocolateBar.getName() + "\n" + "Machine: " + food.getName() + "\n" + "Amount Left: " + chocolateBar.getQuantity() + "\n" + "Total Cost: $" + chocolateBar.totalCost() + "\n");
+		System.out.println("Snack: " + pretzel.getName() + "\n" + "Machine: " + food.getName() + "\n" + "Amount Left: " + pretzel.getQuantity() + "\n" + "Total Cost: $" + pretzel.totalCost() + "\n");
+		System.out.println("Snack: " + soda.getName() + "\n" + "Machine: " + drink.getName() + "\n" + "Amount Left: " + soda.getQuantity() + "\n" + "Total Cost: $" + soda.totalCost() + "\n");
+		System.out.println("Snack: " + water.getName() + "\n" + "Machine: " + drink.getName() + "\n" + "Amount Left: " + water.getQuantity() + "\n" + "Total Cost: $" + water.totalCost() + "\n");
+
 	}
 
 	public static void main(String[] args)
